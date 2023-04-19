@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: linear-gradient(to right, rgb(238, 82, 194), rgb(0, 255, 217))
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 10px;
+    text-shadow: -5px -5px 15px rgba(224, 219, 219, 0.7), 5px 5px 15px rgba(6, 6, 6, 0.3);
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: capitalize;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form input.inputbox {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(224, 219, 219, 0.7);
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.2), 5px 5px 15px rgba(6, 6, 6, 0.3);
+}
+
+form input.submit {
+    background-color: yellow;
+    color: red;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: 500;
+
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.2), 5px 5px 15px rgba(6, 6, 6, 0.3);
+}
+
+form input.submit:hover {
+    background-color: rgb(235, 46, 21);
+    color: whitesmoke;
+    cursor: pointer;
+    border: none;
+    scale: 1.2;
+}
+
+img{
+    height: 350px;
+    width: 350px;
+}
+.image {
+   text-align: center;
+   margin: 40px;
+   padding: 40px;
+}
+
+#footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   text-align: center;
+    
+}
